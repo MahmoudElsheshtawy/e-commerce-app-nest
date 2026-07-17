@@ -9,7 +9,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import configuration from './config/configuration';
 import { MongooseModule } from '@nestjs/mongoose';
 import { Connection } from 'mongoose';
-import { SheradModule } from './modules/sherad/sherad.module';
+// import { SheradModule } from './modules/sherad/sherad.module';
 @Module({
   imports: 
   [
@@ -32,7 +32,7 @@ import { SheradModule } from './modules/sherad/sherad.module';
         UserModule,
         ProductModule,
         PrandModule,
-        SheradModule,
+        // SheradModule,
       ],
   controllers: [AppController],
   providers: [AppService],
